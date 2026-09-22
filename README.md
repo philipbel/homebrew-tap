@@ -7,4 +7,5 @@
 
 ```bash
 brew tap philipbel/tap
+brew trust philipbel/tap
 ```
