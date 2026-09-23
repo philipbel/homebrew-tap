@@ -1,11 +1,11 @@
 cask "pdfinfo" do
-  version "1.1.0"
-  sha256 "a579b2f85740f2eaf2fe75e136fa8e6d03d4b0cfd693ab8250ffb28f731f88bc"
+  version "1.1.1"
+  sha256 "04de2218e624e42f370f86eeee4ebd84fba8014fb5b5cd59a29122f6dbf9ac0c"
 
   url "https://github.com/philipbel/PDFInfo/releases/download/v#{version}/PDFInfo-#{version}.dmg"
   name "PDF Info"
   desc "Native macOS app for inspecting PDF fonts and metadata"
-  homepage "https://github.com/philipbel/PDFInfo"
+  homepage "https://philipbel.github.io/PDFInfo"
 
   depends_on macos: :sonoma
   depends_on arch: :arm64
